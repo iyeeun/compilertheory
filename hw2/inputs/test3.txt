@@ -1,0 +1,20 @@
+program Exercise 
+   program_begin
+	    integer  a, b, c = 10;
+        a = 1 * 20;
+    	if (a > c) 
+			begin
+      		    integer d = a * c;
+    		end 
+	    else 
+			begin
+		    while(a < c)
+            begin
+                display("Good Day. Peace_to_you.");
+                if(a == c) 
+                begin
+                    break;
+                end
+            end
+        end 
+  program_end
